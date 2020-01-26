@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8497" started-at="2020-01-26T05:20:13Z" finished-at="2020-01-26T05:20:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8497" started-at="2020-01-26T05:20:13Z" finished-at="2020-01-26T05:20:21Z">
+      <class name="MavenTutorial.MavenTutorial.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:MavenTutorial.MavenTutorial.AppTest@6d00a15d]" name="testApp" duration-ms="8482" started-at="2020-01-26T10:50:13Z" finished-at="2020-01-26T10:50:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- MavenTutorial.MavenTutorial.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,5 +1,7 @@
 package MavenTutorial.MavenTutorial;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -10,7 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class AppTest
 {
 	@Test
-	public void testApp()
+	public void testApp() throws InterruptedException
 	{
 		//Without profile
 		//-DEnvname=UAT clean install
@@ -25,6 +27,9 @@ public class AppTest
 		System.out.println(System.getProperty("UserName"));
 		
 		WebDriverManager.chromedriver().setup();
-
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.google.com");
+		Thread.sleep(3000);
+		driver.quit();
 	}
 }
