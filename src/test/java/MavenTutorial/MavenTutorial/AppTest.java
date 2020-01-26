@@ -26,7 +26,7 @@ public class AppTest
 		//UserName will be picked up either from -DUserName from system variable or from UserName tag of POM.xml
 		System.out.println(System.getProperty("UserName"));
 		
-		WebDriverManager.chromedriver().setup();
+		System.setProperty("webdriver.chrome.driver", "C:\\selenium_drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com");
 		Thread.sleep(3000);
