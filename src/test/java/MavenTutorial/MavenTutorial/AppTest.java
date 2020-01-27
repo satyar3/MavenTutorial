@@ -46,6 +46,7 @@ public class AppTest
 	@Test(description = "This is used for parallel testing", priority = 2)
 	public void parallelTest() throws InterruptedException
 	{
+		System.setProperty("webdriver.chrome.drive", "C:\\Selenium_Driver");
 		WebDriver driver  = new ChromeDriver();
 		driver.get("https://www.google.com");
 		Thread.sleep(3000);
