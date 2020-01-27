@@ -34,7 +34,7 @@ public class AppTest
 	public void testDocker() throws MalformedURLException, InterruptedException
 	{
 		DesiredCapabilities cap = DesiredCapabilities.chrome();
-		URL url = new URL("http://192.168.99.100:4444/wd/hub/");
+		URL url = new URL("http://192.168.99.100:32771/wd/hub/");
 		RemoteWebDriver driver = new RemoteWebDriver(url, cap);
 		driver.get("https://www.google.com");
 		Thread.sleep(3000);
