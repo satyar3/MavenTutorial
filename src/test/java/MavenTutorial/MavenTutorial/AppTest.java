@@ -43,7 +43,7 @@ public class AppTest
 		driver.quit();
 	}
 	
-	@Test(description = "This is used for parallel testing", priority = 2)
+	@Test(description = "This is used for parallel testing", priority = 2, enabled = false)
 	public void parallelTest() throws InterruptedException
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\selenium_drivers\\chromedriver.exe");
