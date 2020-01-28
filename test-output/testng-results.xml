@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13011" started-at="2020-01-26T05:52:06Z" finished-at="2020-01-26T05:52:19Z">
+  <suite name="Suite" duration-ms="59243" started-at="2020-01-28T16:18:39Z" finished-at="2020-01-28T16:19:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13011" started-at="2020-01-26T05:52:06Z" finished-at="2020-01-26T05:52:19Z">
-      <class name="MavenTutorial.MavenTutorial.AppTest">
-        <test-method status="PASS" signature="mavenBasic()[pri:0, instance:MavenTutorial.MavenTutorial.AppTest@2ef5e5e3]" name="mavenBasic" duration-ms="8" started-at="2020-01-26T11:22:06Z" description="Mavn profile and parameters" finished-at="2020-01-26T11:22:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mavenBasic -->
-        <test-method status="PASS" signature="testDocker()[pri:0, instance:MavenTutorial.MavenTutorial.AppTest@2ef5e5e3]" name="testDocker" duration-ms="12989" started-at="2020-01-26T11:22:06Z" description="This part is used for docker" finished-at="2020-01-26T11:22:19Z">
+    <test name="Test" duration-ms="59243" started-at="2020-01-28T16:18:39Z" finished-at="2020-01-28T16:19:39Z">
+      <class name="MavenTutorial.MavenTutorial.Test4">
+        <test-method status="PASS" signature="testDocker()[pri:0, instance:MavenTutorial.MavenTutorial.Test4@68be2bc2]" name="testDocker" duration-ms="59228" started-at="2020-01-28T21:48:39Z" description="This test is used for docker run" finished-at="2020-01-28T21:49:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDocker -->
-      </class> <!-- MavenTutorial.MavenTutorial.AppTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- MavenTutorial.MavenTutorial.Test4 -->
+      <class name="MavenTutorial.MavenTutorial.Test1">
+        <test-method status="PASS" signature="mavenBasic()[pri:0, instance:MavenTutorial.MavenTutorial.Test1@51efea79]" name="mavenBasic" duration-ms="9" started-at="2020-01-28T21:48:39Z" description="Mavn profile and parameters" finished-at="2020-01-28T21:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mavenBasic -->
+      </class> <!-- MavenTutorial.MavenTutorial.Test1 -->
+      <class name="MavenTutorial.MavenTutorial.Test3">
+        <test-method status="PASS" signature="testDocker()[pri:0, instance:MavenTutorial.MavenTutorial.Test3@28feb3fa]" name="testDocker" duration-ms="47263" started-at="2020-01-28T21:48:39Z" description="This test is used for docker run" finished-at="2020-01-28T21:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDocker -->
+      </class> <!-- MavenTutorial.MavenTutorial.Test3 -->
+      <class name="MavenTutorial.MavenTutorial.Test2">
+        <test-method status="PASS" signature="testDocker()[pri:0, instance:MavenTutorial.MavenTutorial.Test2@20e2cbe0]" name="testDocker" duration-ms="29187" started-at="2020-01-28T21:48:39Z" description="This test is used for docker run" finished-at="2020-01-28T21:49:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDocker -->
+      </class> <!-- MavenTutorial.MavenTutorial.Test2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
