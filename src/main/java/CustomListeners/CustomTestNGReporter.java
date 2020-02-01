@@ -191,17 +191,18 @@ public class CustomTestNGReporter implements IReporter
 					retBuf.append(deltaTimeStr);
 					retBuf.append("</td>");
 
-					/* Include groups. */
+					//Hiding groups
+					/* Include groups. 
 					retBuf.append("<td>");
 					retBuf.append(this.stringArrayToString(testObj.getIncludedGroups()));
-					retBuf.append("</td>");
+					retBuf.append("</td>");*/
 
-					/* Exclude groups. */
+					/* Exclude groups. 
 					retBuf.append("<td>");
 					retBuf.append(this.stringArrayToString(testObj.getExcludedGroups()));
 					retBuf.append("</td>");
 
-					retBuf.append("</tr>");
+					retBuf.append("</tr>");*/
 				}
 			}
 		} catch (Exception ex)
