@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14" started-at="2020-02-01T16:40:52Z" finished-at="2020-02-01T16:40:53Z">
+  <suite name="Default suite" duration-ms="15" started-at="2020-02-01T16:46:45Z" finished-at="2020-02-01T16:46:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14" started-at="2020-02-01T16:40:52Z" finished-at="2020-02-01T16:40:53Z">
+    <test name="Default test" duration-ms="15" started-at="2020-02-01T16:46:45Z" finished-at="2020-02-01T16:46:45Z">
       <class name="MavenTutorial.MavenTutorial.Test1">
-        <test-method status="PASS" signature="mavenBasic()[pri:0, instance:MavenTutorial.MavenTutorial.Test1@643b1d11]" name="mavenBasic" duration-ms="7" started-at="2020-02-01T22:10:52Z" description="Mavn profile and parameters" finished-at="2020-02-01T22:10:53Z">
+        <test-method status="PASS" signature="mavenBasic()[pri:0, instance:MavenTutorial.MavenTutorial.Test1@643b1d11]" name="mavenBasic" duration-ms="7" started-at="2020-02-01T22:16:45Z" description="Mavn profile and parameters" finished-at="2020-02-01T22:16:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mavenBasic -->
