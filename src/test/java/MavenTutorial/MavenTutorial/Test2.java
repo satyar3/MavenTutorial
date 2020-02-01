@@ -8,7 +8,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-//@Listeners(CustomListeners.CustomTestNGReporter.class)
+@Listeners(CustomListeners.CustomTestNGReporter.class)
 public class Test2
 {
 	@Test(description = "This test is used for docker run", priority = 1)

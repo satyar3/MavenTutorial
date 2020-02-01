@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="21448" started-at="2020-02-01T15:48:36Z" finished-at="2020-02-01T15:48:57Z">
+  <suite name="Command line suite" duration-ms="23328" started-at="2020-02-01T15:54:33Z" finished-at="2020-02-01T15:54:56Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="21448" started-at="2020-02-01T15:48:36Z" finished-at="2020-02-01T15:48:57Z">
+    <test name="Command line test" duration-ms="23328" started-at="2020-02-01T15:54:33Z" finished-at="2020-02-01T15:54:56Z">
       <class name="MavenTutorial.MavenTutorial.Test4">
-        <test-method status="PASS" signature="testDocker()[pri:0, instance:MavenTutorial.MavenTutorial.Test4@2ed94a8b]" name="testDocker" duration-ms="9722" started-at="2020-02-01T21:18:48Z" description="This test is used for docker run" finished-at="2020-02-01T21:18:57Z">
+        <test-method status="PASS" signature="testDocker()[pri:0, instance:MavenTutorial.MavenTutorial.Test4@2ed94a8b]" name="testDocker" duration-ms="11189" started-at="2020-02-01T21:24:45Z" description="This test is used for docker run" finished-at="2020-02-01T21:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDocker -->
       </class> <!-- MavenTutorial.MavenTutorial.Test4 -->
       <class name="MavenTutorial.MavenTutorial.Test1">
-        <test-method status="PASS" signature="mavenBasic()[pri:0, instance:MavenTutorial.MavenTutorial.Test1@1554909b]" name="mavenBasic" duration-ms="24" started-at="2020-02-01T21:18:36Z" description="Mavn profile and parameters" finished-at="2020-02-01T21:18:36Z">
+        <test-method status="PASS" signature="mavenBasic()[pri:0, instance:MavenTutorial.MavenTutorial.Test1@1554909b]" name="mavenBasic" duration-ms="23" started-at="2020-02-01T21:24:33Z" description="Mavn profile and parameters" finished-at="2020-02-01T21:24:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mavenBasic -->
       </class> <!-- MavenTutorial.MavenTutorial.Test1 -->
       <class name="MavenTutorial.MavenTutorial.Test3">
-        <test-method status="FAIL" signature="testDocker()[pri:0, instance:MavenTutorial.MavenTutorial.Test3@73f792cf]" name="testDocker" duration-ms="6142" started-at="2020-02-01T21:18:41Z" description="This test is used for docker run" finished-at="2020-02-01T21:18:48Z">
+        <test-method status="FAIL" signature="testDocker()[pri:0, instance:MavenTutorial.MavenTutorial.Test3@73f792cf]" name="testDocker" duration-ms="6318" started-at="2020-02-01T21:24:38Z" description="This test is used for docker run" finished-at="2020-02-01T21:24:45Z">
           <exception class="junit.framework.AssertionFailedError">
             <full-stacktrace>
               <![CDATA[junit.framework.AssertionFailedError
@@ -27,7 +27,7 @@
 	at junit.framework.Assert.assertTrue(Assert.java:20)
 	at junit.framework.Assert.assertFalse(Assert.java:34)
 	at junit.framework.Assert.assertFalse(Assert.java:41)
-	at MavenTutorial.MavenTutorial.Test3.testDocker(Test3.java:25)
+	at MavenTutorial.MavenTutorial.Test3.testDocker(Test3.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -70,7 +70,7 @@
         </test-method> <!-- testDocker -->
       </class> <!-- MavenTutorial.MavenTutorial.Test3 -->
       <class name="MavenTutorial.MavenTutorial.Test2">
-        <test-method status="PASS" signature="testDocker()[pri:0, instance:MavenTutorial.MavenTutorial.Test2@38082d64]" name="testDocker" duration-ms="5545" started-at="2020-02-01T21:18:36Z" description="This test is used for docker run" finished-at="2020-02-01T21:18:41Z">
+        <test-method status="PASS" signature="testDocker()[pri:0, instance:MavenTutorial.MavenTutorial.Test2@38082d64]" name="testDocker" duration-ms="5783" started-at="2020-02-01T21:24:33Z" description="This test is used for docker run" finished-at="2020-02-01T21:24:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDocker -->
