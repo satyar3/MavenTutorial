@@ -7,6 +7,8 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
 
+import junit.framework.Assert;
+
 public class Test3
 {
 	@Test(description = "This test is used for docker run", priority = 1)
@@ -20,5 +22,6 @@ public class Test3
 		String title = driver.getTitle();
 		System.out.println("Title is : "+title);
 		driver.quit();
+		Assert.assertFalse(true);
 	}
 }
