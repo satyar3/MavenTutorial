@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
   <listeners>
-    <listener class-name="MavenTutorial.MavenTutorial.Listeners.CustomTestNGReporter"/>
+    <listener class-name="Listeners.CustomTestNGReporter"/>
   </listeners>
   <test name="Test(failed)">
     <classes>

@@ -1,12 +1,10 @@
-package MavenTutorial.MavenTutorial.Listeners;
+package CustomListeners;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
-import java.io.PrintWriter;
-import java.io.StringWriter;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -27,7 +25,7 @@ public class CustomTestNGReporter implements IReporter
 {
 
 	//This is the customize emailabel report template file path.
-	private static final String emailableReportTemplateFile = "ReporterTemplate\\Template.html";
+	private static final String emailableReportTemplateFile = "src\\main\\java\\CustomListeners\\Template.html";
 
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory)
 	{

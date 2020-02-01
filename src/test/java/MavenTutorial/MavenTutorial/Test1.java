@@ -3,6 +3,7 @@ package MavenTutorial.MavenTutorial;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(CustomListeners.CustomTestNGReporter.class)
 public class Test1
 {
 	@Test(description = "Mavn profile and parameters", priority = 0)

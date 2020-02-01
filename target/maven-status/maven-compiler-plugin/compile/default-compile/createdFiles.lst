@@ -1,2 +1,2 @@
 MavenTutorial\MavenTutorial\Base.class
-MavenTutorial\MavenTutorial\Listeners\CustomTestNGReporter.class
+CustomListeners\CustomTestNGReporter.class

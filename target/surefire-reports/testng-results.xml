@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="21074" started-at="2020-02-01T14:32:58Z" finished-at="2020-02-01T14:33:19Z">
+  <suite name="Command line suite" duration-ms="21448" started-at="2020-02-01T15:48:36Z" finished-at="2020-02-01T15:48:57Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="21074" started-at="2020-02-01T14:32:58Z" finished-at="2020-02-01T14:33:19Z">
+    <test name="Command line test" duration-ms="21448" started-at="2020-02-01T15:48:36Z" finished-at="2020-02-01T15:48:57Z">
       <class name="MavenTutorial.MavenTutorial.Test4">
-        <test-method status="PASS" signature="testDocker()[pri:0, instance:MavenTutorial.MavenTutorial.Test4@783e6358]" name="testDocker" duration-ms="9767" started-at="2020-02-01T20:03:09Z" description="This test is used for docker run" finished-at="2020-02-01T20:03:19Z">
+        <test-method status="PASS" signature="testDocker()[pri:0, instance:MavenTutorial.MavenTutorial.Test4@2ed94a8b]" name="testDocker" duration-ms="9722" started-at="2020-02-01T21:18:48Z" description="This test is used for docker run" finished-at="2020-02-01T21:18:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDocker -->
       </class> <!-- MavenTutorial.MavenTutorial.Test4 -->
       <class name="MavenTutorial.MavenTutorial.Test1">
-        <test-method status="PASS" signature="mavenBasic()[pri:0, instance:MavenTutorial.MavenTutorial.Test1@4e04a765]" name="mavenBasic" duration-ms="20" started-at="2020-02-01T20:02:58Z" description="Mavn profile and parameters" finished-at="2020-02-01T20:02:58Z">
+        <test-method status="PASS" signature="mavenBasic()[pri:0, instance:MavenTutorial.MavenTutorial.Test1@1554909b]" name="mavenBasic" duration-ms="24" started-at="2020-02-01T21:18:36Z" description="Mavn profile and parameters" finished-at="2020-02-01T21:18:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mavenBasic -->
       </class> <!-- MavenTutorial.MavenTutorial.Test1 -->
       <class name="MavenTutorial.MavenTutorial.Test3">
-        <test-method status="FAIL" signature="testDocker()[pri:0, instance:MavenTutorial.MavenTutorial.Test3@21bcffb5]" name="testDocker" duration-ms="5940" started-at="2020-02-01T20:03:03Z" description="This test is used for docker run" finished-at="2020-02-01T20:03:09Z">
+        <test-method status="FAIL" signature="testDocker()[pri:0, instance:MavenTutorial.MavenTutorial.Test3@73f792cf]" name="testDocker" duration-ms="6142" started-at="2020-02-01T21:18:41Z" description="This test is used for docker run" finished-at="2020-02-01T21:18:48Z">
           <exception class="junit.framework.AssertionFailedError">
             <full-stacktrace>
               <![CDATA[junit.framework.AssertionFailedError
@@ -49,9 +49,10 @@
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
 	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -69,11 +70,11 @@
         </test-method> <!-- testDocker -->
       </class> <!-- MavenTutorial.MavenTutorial.Test3 -->
       <class name="MavenTutorial.MavenTutorial.Test2">
-        <test-method status="PASS" signature="testDocker()[pri:0, instance:MavenTutorial.MavenTutorial.Test2@17550481]" name="testDocker" duration-ms="5339" started-at="2020-02-01T20:02:58Z" description="This test is used for docker run" finished-at="2020-02-01T20:03:03Z">
+        <test-method status="PASS" signature="testDocker()[pri:0, instance:MavenTutorial.MavenTutorial.Test2@38082d64]" name="testDocker" duration-ms="5545" started-at="2020-02-01T21:18:36Z" description="This test is used for docker run" finished-at="2020-02-01T21:18:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDocker -->
       </class> <!-- MavenTutorial.MavenTutorial.Test2 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
 </testng-results>
