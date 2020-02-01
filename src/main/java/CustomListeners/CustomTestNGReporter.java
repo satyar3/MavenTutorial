@@ -25,7 +25,7 @@ public class CustomTestNGReporter implements IReporter
 {
 
 	//This is the customize emailabel report template file path.
-	private static final String emailableReportTemplateFile = "src\\main\\java\\CustomListeners\\Template.html";
+	private static final String emailableReportTemplateFile = "src/main/java/CustomListeners/Template.html";
 
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory)
 	{
