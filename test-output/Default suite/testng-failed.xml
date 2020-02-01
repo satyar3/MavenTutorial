@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="MavenTutorial.MavenTutorial.Test2">
+      <class name="MavenTutorial.MavenTutorial.Utility">
         <methods>
-          <include name="testDocker"/>
+          <include name="modifyTestNGResult"/>
         </methods>
-      </class> <!-- MavenTutorial.MavenTutorial.Test2 -->
+      </class> <!-- MavenTutorial.MavenTutorial.Utility -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
